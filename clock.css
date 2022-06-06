@@ -1,0 +1,126 @@
+body{
+    background-color:  #212121;
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+   
+  
+}
+
+.time-display{
+    display: flex;
+    flex-direction: row;
+    background-color: white ;
+    width: auto;
+    height: 10%;
+    border-radius: 4px;
+
+}
+
+.timer{
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.main-container{
+    background-color:darkorange;
+    border-radius: 10px; 
+    padding: 0.1rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(31,153,135,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(31,153,135,1);
+    box-shadow: 10px 10px 5px 0px rgba(31,153,135,1);
+}
+
+#clock{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+
+}
+
+.setAlarm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alarm-heading{
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding-top: 50px;
+   
+}
+
+.set-alarm-field{
+    margin-top: -20px;
+    height: 40px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.controls button{
+    background-color: #469996;
+    border-color: #47aa9d;
+    color: whitesmoke;
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight:500;
+    
+}
+
+.controls button:hover{
+    background-color: #469996;
+}
+
+#myList{
+    list-style-type: none;
+    
+}
+
+#myList li{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    background-color: #469996;
+    height: 2rem;
+    margin-left: -30px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+    width: 280px;
+    margin-bottom: 10px;
+
+}
+
+.time-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.time-list span{
+    /* background-color: violet; */
+    width: 160px;
+    margin-right: 18px;
+    
+}
+
+.time-list button{
+    background-color: #469996;
+    border-color: #469996;
+    border-radius: 3px;
+    border-width: 0px;
+    height: 22px;
+    color: whitesmoke;
+}
+
+
+
